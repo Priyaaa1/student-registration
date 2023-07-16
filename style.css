@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    /* background-color: bisque; */
+    background-image: url(bg.jpg);
+    min-height: 100vh;
+}
+
+.get-data{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(195, 191, 184);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 110px;
+    
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+form{
+    min-height: 20vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  /* width: 100%; */
+  padding: 5px;
+  margin-bottom: 8px;
+}
+
+.gender{
+    margin-bottom: 5px; 
+}
+
+.form-field{
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  padding: 8px 15px;
+  background-color: #704503;
+  letter-spacing: 2px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(71, 42, 42);
+}
+
+#studentDataDisplay {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(195, 191, 184);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.display-header{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.display-content{
+    margin-bottom: 2px;
+}
